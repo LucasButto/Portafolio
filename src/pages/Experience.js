@@ -6,21 +6,20 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import TimelineElement from "../components/TimelineElement";
 
 const Experience = () => {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2013 - 2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <TimelineElement 
+          <TimelineElement
             title={"Eesopi N3081 Dante Alighieri"}
             subTitle={"High School Diploma"}
           />
@@ -34,7 +33,9 @@ const Experience = () => {
         >
           <TimelineElement
             title={"internships at Arrow Computacion"}
-            description={"internship at Arrow Computacion where I had to perform tasks of assembly and maintenance of computer equipment."}
+            description={
+              "internship at Arrow Computacion where I had to perform tasks of assembly and maintenance of computer equipment."
+            }
           />
         </VerticalTimelineElement>
 
@@ -80,15 +81,16 @@ const Experience = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <TimelineElement 
-            title={"Universidad Tecnológica Nacional | Facultad Regional Rosario"}
+          <TimelineElement
+            title={
+              "Universidad Tecnológica Nacional | Facultad Regional Rosario"
+            }
             description={"University Degree in Programming"}
           />
         </VerticalTimelineElement>
-
       </VerticalTimeline>
     </div>
   );
-}
+};
 
 export default Experience;

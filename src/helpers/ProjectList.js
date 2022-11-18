@@ -15,5 +15,5 @@ export const ProjectList = [
     skills: "HTML, CSS, JavaScript",
     github: "https://github.com/LucasButto/Clima-App",
     link: "https://lucasbutto.github.io/Clima-App/index.html",
-  }
+  },
 ];

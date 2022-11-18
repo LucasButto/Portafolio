@@ -15,15 +15,11 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h3> Front-End</h3>
-            <span>
-              - HTML, CSS, JavaScript, ReactJS, NPM, BootStrap.
-            </span>
+            <span>- HTML, CSS, JavaScript, ReactJS, NPM, BootStrap.</span>
           </li>
           <li className="item">
             <h3>Back-End</h3>
-            <span>
-              - .NET, MySQL
-            </span>
+            <span>- .NET, MySQL</span>
           </li>
           <li className="item">
             <h3>Programming Languages</h3>
@@ -41,6 +37,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

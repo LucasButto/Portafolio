@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import LaunchIcon from '@mui/icons-material/Launch';
+import LaunchIcon from "@mui/icons-material/Launch";
 import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {
@@ -11,7 +11,7 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} alt="Project img"/>
+      <img src={project.image} alt="Project img" />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
@@ -25,6 +25,6 @@ const ProjectDisplay = () => {
       </div>
     </div>
   );
-}
+};
 
 export default ProjectDisplay;

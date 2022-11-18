@@ -14,6 +14,6 @@ const ProjectItem = ({ image, name, id }) => {
       <h1> {name} </h1>
     </div>
   );
-}
+};
 
 export default ProjectItem;

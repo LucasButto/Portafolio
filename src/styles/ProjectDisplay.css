@@ -13,7 +13,8 @@
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  max-width: 700px;
+  max-height: 500px;
   border-radius: 10px;
 }
 
@@ -27,6 +28,23 @@
   color: #3e497a;
 }
 
-.links-containers > a{
+.links-containers > a {
   margin: 0 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .project img {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .project img {
+    max-width: 300px;
+  }
+
+  .project p {
+    font-size: 30px;
+    margin: 15px;
+  }
 }
