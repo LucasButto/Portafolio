@@ -21,14 +21,14 @@ const Experience = () => {
         >
           <TimelineElement
             title={"Eesopi N3081 Dante Alighieri"}
-            subTitle={"High School Diploma"}
+            subTitle={"Bachelor in economics and administration"}
           />
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2017"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#5A3600", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <TimelineElement
@@ -42,7 +42,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#094D00", color: "#fff" }}
           icon={<AutoStoriesIcon />}
         >
           <TimelineElement
@@ -54,7 +54,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#094D00", color: "#fff" }}
           icon={<AutoStoriesIcon />}
         >
           <TimelineElement
@@ -66,7 +66,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2021"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#094D00", color: "#fff" }}
           icon={<AutoStoriesIcon />}
         >
           <TimelineElement
