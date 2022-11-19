@@ -11,6 +11,13 @@ const Contact = () => {
   const [inputEmail, setInputEmail] = useState();
   const [inputMessage, setInputMessage] = useState();
 
+  const sendEmailHandler = () => {
+    console.log(inputName, inputEmail, inputMessage);
+    setInputName("");
+    setInputEmail("");
+    setInputMessage("");
+  };
+
   return (
     <div>
       <section id="contact">
@@ -25,7 +32,8 @@ const Contact = () => {
                 id="name"
                 placeholder="NAME"
                 name="name"
-                value=""
+                value={inputName}
+                onChange={(e) => setInputName(e.target.value)}
                 required
               />
 
@@ -35,13 +43,16 @@ const Contact = () => {
                 id="email"
                 placeholder="EMAIL"
                 name="email"
-                value=""
+                value={inputEmail}
+                onChange={(e) => setInputEmail(e.target.value)}
                 required
               />
 
               <textarea
                 className="form-text"
                 placeholder="MESSAGE"
+                value={inputMessage}
+                onChange={(e) => setInputMessage(e.target.value)}
                 required
               ></textarea>
             </div>
@@ -51,6 +62,7 @@ const Contact = () => {
               id="submit"
               type="button"
               value="SEND"
+              onClick={sendEmailHandler}
             >
               <div className="alt-send-button">
                 <SendIcon />
