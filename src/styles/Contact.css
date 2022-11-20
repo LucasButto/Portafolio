@@ -32,6 +32,11 @@
   font-weight: 400;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-inputs {
   display: flex;
   flex-direction: column;
@@ -87,31 +92,24 @@
   margin-top: 15px;
   height: 34px;
   width: 100%;
-  overflow: hidden;
-  transition: all 0.2s ease-in-out;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
-  transition: all 0.2s ease-in-out;
-}
-
-.send-text {
-  display: block;
-  margin-top: 10px;
-  font: 700 12px;
-  letter-spacing: 2px;
 }
 
 .alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
   cursor: pointer;
+}
+
+.spinner {
+  margin: 20px auto;
 }
 
 /* Begin Right Contact Page */
 .direct-contact-container {
-  max-width: 400px;
+  max-width: 500px;
   margin: auto 0;
 }
 
@@ -138,16 +136,10 @@
 .contact-text a {
   text-decoration: none;
   color: #3e497a;
-  transition-duration: 0.2s;
 }
 
 .contact-text a:visited {
   color: #3e497a;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #25d1d1;
 }
 
 .gmail > a:hover {
@@ -158,6 +150,12 @@ a:hover {
 .whatsapp > a:hover {
   color: rgb(37 211 102);
   font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 /* Begin Media Queries*/
@@ -174,16 +172,6 @@ a:hover {
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
-  }
-  .social-media-list li {
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-  }
-  .social-media-list li:after {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
   }
 }
 
@@ -206,20 +194,6 @@ a:hover {
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
-  }
-  .social-media-list {
-    left: 0;
-  }
-  .social-media-list li {
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    font-size: 2rem;
-  }
-  .social-media-list li:after {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
   }
   .send-button {
     width: 100%;
