@@ -1,5 +1,6 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
+import Proj3 from "../assets/proj3.jpg";
 
 export const ProjectList = [
   {
@@ -15,5 +16,11 @@ export const ProjectList = [
     skills: "HTML, CSS, JavaScript",
     github: "https://github.com/LucasButto/Clima-App",
     link: "https://lucasbutto.github.io/Clima-App/index.html",
+  },
+  {
+    name: "CRUD API",
+    image: Proj3,
+    skills: ".NET, SQL",
+    github: "https://github.com/LucasButto/store-management-api",
   },
 ];

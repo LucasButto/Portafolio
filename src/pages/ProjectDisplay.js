@@ -19,9 +19,11 @@ const ProjectDisplay = () => {
         <a href={project.github} target="_blank" rel="noreferrer">
           <GitHubIcon />
         </a>
-        <a href={project.link} target="_blank" rel="noreferrer">
-          <LaunchIcon />
-        </a>
+        {Boolean(project.link) && (
+          <a href={project.link} target="_blank" rel="noreferrer">
+            <LaunchIcon />
+          </a>
+        )}
       </div>
     </div>
   );
