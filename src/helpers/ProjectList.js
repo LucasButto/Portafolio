@@ -1,6 +1,7 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.jpg";
+import Proj4 from "../assets/proj4.jpg";
 
 export const ProjectList = [
   {
@@ -22,5 +23,12 @@ export const ProjectList = [
     image: Proj3,
     skills: ".NET, SQL",
     github: "https://github.com/LucasButto/store-management-api",
+  },
+  {
+    name: "Pointer Game",
+    image: Proj4,
+    skills: "HTML, CSS, JavaScript",
+    github: "https://github.com/LucasButto/Juego-Web",
+    link: "https://lucasbutto.github.io/Juego-Web/",
   },
 ];
