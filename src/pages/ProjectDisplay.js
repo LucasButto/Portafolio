@@ -16,11 +16,21 @@ const ProjectDisplay = () => {
         <b>Skills:</b> {project.skills}
       </p>
       <div className="links-containers">
-        <a href={project.github} target="_blank" rel="noreferrer">
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noreferrer"
+          title="Visit the repository"
+        >
           <GitHubIcon />
         </a>
         {Boolean(project.link) && (
-          <a href={project.link} target="_blank" rel="noreferrer">
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noreferrer"
+            title="Go to the site"
+          >
             <LaunchIcon />
           </a>
         )}
