@@ -22,6 +22,7 @@ const Footer = () => {
           <GitHubIcon />
         </a>
       </div>
+      <p>Portfolio made with React.Js</p>
     </div>
   );
 };
