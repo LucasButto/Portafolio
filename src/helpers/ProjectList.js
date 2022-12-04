@@ -2,6 +2,7 @@ import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.jpg";
 import Proj4 from "../assets/proj4.jpg";
+import Proj5 from "../assets/proj5.jpg";
 
 export const ProjectList = [
   {
@@ -30,5 +31,12 @@ export const ProjectList = [
     skills: "HTML, CSS, JavaScript",
     github: "https://github.com/LucasButto/Juego-Web",
     link: "https://lucasbutto.github.io/Juego-Web/",
+  },
+  {
+    name: "ToDo-List",
+    image: Proj5,
+    skills: "React.js, HTML, CSS, LocalStorage",
+    github: "https://github.com/LucasButto/todo-list",
+    link: "https://lucasbutto.github.io/todo-list/",
   },
 ];
