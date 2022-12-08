@@ -3,6 +3,7 @@ import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.jpg";
 import Proj4 from "../assets/proj4.jpg";
 import Proj5 from "../assets/proj5.jpg";
+import Proj6 from "../assets/proj6.jpg";
 
 export const ProjectList = [
   {
@@ -38,5 +39,12 @@ export const ProjectList = [
     skills: "React.js, HTML, CSS, LocalStorage",
     github: "https://github.com/LucasButto/todo-list",
     link: "https://lucasbutto.github.io/todo-list/",
+  },
+  {
+    name: "Calculator",
+    image: Proj6,
+    skills: "React.js, HTML, CSS, JavaScript",
+    github: "https://github.com/LucasButto/Calculator",
+    link: "https://lucasbutto.github.io/Calculator/",
   },
 ];
