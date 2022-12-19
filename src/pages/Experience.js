@@ -76,6 +76,18 @@ const Experience = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022"
+          iconStyle={{ background: "#094D00", color: "#fff" }}
+          icon={<AutoStoriesIcon />}
+        >
+          <TimelineElement
+            title={"Introduction to Databases & SQL"}
+            description={"Introductory course on Databases and SQL"}
+          />
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2021 - current"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
