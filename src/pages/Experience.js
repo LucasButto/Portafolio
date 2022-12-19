@@ -20,8 +20,8 @@ const Experience = () => {
           icon={<SchoolIcon />}
         >
           <TimelineElement
-            title={"Eesopi N3081 Dante Alighieri"}
-            subTitle={"Bachelor in economics and administration"}
+            title={"Bachelor in economics and administration"}
+            description={"Eesopi N3081 Dante Alighieri"}
           />
         </VerticalTimelineElement>
 
@@ -32,9 +32,9 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <TimelineElement
-            title={"internships at Arrow Computacion"}
+            title={"Internships at Arrow Computacion"}
             description={
-              "internship at Arrow Computacion where I had to perform tasks of assembly and maintenance of computer equipment."
+              "Internship at Arrow Computacion where I had to perform tasks of assembly and maintenance of computer equipment."
             }
           />
         </VerticalTimelineElement>
@@ -94,10 +94,10 @@ const Experience = () => {
           icon={<SchoolIcon />}
         >
           <TimelineElement
-            title={
+            title={"University Degree in Programming"}
+            description={
               "Universidad Tecnológica Nacional | Facultad Regional Rosario"
             }
-            description={"University Degree in Programming"}
           />
         </VerticalTimelineElement>
       </VerticalTimeline>
