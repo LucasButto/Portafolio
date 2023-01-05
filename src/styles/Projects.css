@@ -51,9 +51,14 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1366px) {
   .projectList {
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .projectItem {
+    width: 300px;
+    height: 300px;
   }
 }
 
