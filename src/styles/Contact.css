@@ -5,6 +5,12 @@
   color: #3e497a;
 }
 
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+}
+
 .section-header {
   text-align: center;
   margin: 0 auto;
@@ -204,10 +210,17 @@
 }
 
 @media screen and (max-width: 425px) {
+  .section-header {
+    font-size: 50px;
+    padding: 20px 0 0px 0;
+  }
+  .contact-wrapper {
+    padding-top: 0;
+  }
   .send-button,
   .form-input,
   textarea {
-    width: 200px;
+    width: 300px;
   }
 
   .send-button {
@@ -215,5 +228,15 @@
   }
   .alt-send-button {
     width: 100%;
+  }
+  .contact-list {
+    margin-left: -50px;
+  }
+  .place {
+    margin-left: 16px;
+  }
+  .list-item {
+    width: 300px;
+    line-height: 4;
   }
 }

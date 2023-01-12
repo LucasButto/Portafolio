@@ -69,7 +69,7 @@ const Contact = () => {
   return (
     <div>
       <section id="contact">
-        <h1 className="section-header">Contact</h1>
+        <h1>Contact</h1>
 
         <div className="contact-wrapper">
           <div className="contact-form">
