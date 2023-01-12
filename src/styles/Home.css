@@ -92,7 +92,7 @@
 
 @media only screen and (max-width: 425px) {
   .about{
-    height: 100vh;
-    margin-top: -100px;
+    height: calc(100vh + 100px);
+    margin-top: -200px;
   }
 }
