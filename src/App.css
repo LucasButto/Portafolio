@@ -19,7 +19,3 @@ body {
   min-height: 100vh;
   justify-content: space-between;
 }
-
-.navbar{
-  position: fixed;
-}
