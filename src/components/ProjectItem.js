@@ -3,11 +3,15 @@ import { useNavigate } from "react-router-dom";
 
 const ProjectItem = ({ image, name, id }) => {
   const navigate = useNavigate();
+  const navigateToTop = () => {
+    navigate("/project/" + id);
+    window.scrollTo(0, 0);
+  };
   return (
     <div
       className="projectItem"
       onClick={() => {
-        navigate("/project/" + id);
+        navigateToTop();
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
