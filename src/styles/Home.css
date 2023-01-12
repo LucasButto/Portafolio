@@ -89,3 +89,9 @@
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .about{
+    padding-bottom: 100px;
+  }
+}
