@@ -9,6 +9,7 @@ h1 {
   font-size: 25px;
   text-align: center;
   color: #000000;
+  margin-bottom: 0;
 }
 
 .section-header {
@@ -41,6 +42,7 @@ h1 {
 .contact-form {
   display: flex;
   flex-direction: column;
+  width: 400px;
 }
 
 .form-inputs {
@@ -94,19 +96,17 @@ h1 {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 3px;
-  margin-top: 15px;
+  padding: 5px;
   height: 34px;
-  width: 100%;
-}
-
-.alt-send-button {
-  width: 400px;
+  width: calc(100% - 20px);
+  margin: 0 10px;
   height: 34px;
 }
 
-.alt-send-button:hover {
+.send-button:hover {
+  background-color: #596392;
   cursor: pointer;
+  
 }
 
 .spinner {
@@ -204,9 +204,6 @@ h1 {
   .send-button {
     width: 100%;
   }
-  .alt-send-button {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -224,9 +221,6 @@ h1 {
   }
 
   .send-button {
-    width: 100%;
-  }
-  .alt-send-button {
     width: 100%;
   }
   .contact-list {
