@@ -12,6 +12,14 @@ const Navbar = () => {
     setExpandNavbar(false);
   }, [location]);
 
+  const refreshPage = () => {
+    setTimeout(() => {
+      if (window.screen.width <= 425) {
+        window.location.reload();
+      }
+    }, 100);
+  };
+
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
@@ -24,10 +32,10 @@ const Navbar = () => {
         </button>
       </div>
       <div className="links">
-        <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
+        <Link to="/" onClick={refreshPage}> Home </Link>
+        <Link to="/projects" onClick={refreshPage}> Projects </Link>
         <Link to="/experience"> Experience </Link>
-        <Link to="/contact"> Contact </Link>
+        <Link to="/contact" onClick={refreshPage}> Contact </Link>
       </div>
     </div>
   );

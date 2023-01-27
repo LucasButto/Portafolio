@@ -1,7 +1,9 @@
+import AOS from "aos";
 import React from "react";
 import "../styles/Home.css";
 
 const Home = () => {
+  AOS.init();
   return (
     <div className="home">
       <div className="about">

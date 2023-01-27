@@ -143,7 +143,7 @@ const Contact = () => {
                 <span className="contact-text place whatsapp">
                   <a
                     href="https://wa.me/+5493462365854"
-                    title="Give me a call"
+                    title="Send me a message"
                     target="_blank"
                     rel="noreferrer"
                   >
