@@ -10,6 +10,8 @@ const ProjectItem = ({ image, name, id }) => {
   return (
     <div
       className="projectItem"
+      data-aos="zoom-in"
+      data-aos-duration="800"
       onClick={() => {
         navigateToTop();
       }}

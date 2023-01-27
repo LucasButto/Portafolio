@@ -9,14 +9,7 @@ h1 {
   font-size: 25px;
   text-align: center;
   color: #000000;
-}
-
-.section-header {
-  text-align: center;
-  margin: 0 auto;
-  padding: 40px 0;
-  color: #3e497a;
-  font-size: 70px;
+  margin-bottom: 0;
 }
 
 .contact-wrapper {
@@ -37,10 +30,10 @@ h1 {
   font-family: "Lato";
   font-weight: 400;
 }
-
 .contact-form {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .form-inputs {
@@ -49,7 +42,7 @@ h1 {
   margin: 0 auto;
   padding: 20px;
   position: relative;
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .form-input {
@@ -72,7 +65,7 @@ h1 {
 }
 
 .form-inputs textarea {
-  height: 200px;
+  height: 175px;
   padding: 10px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -94,19 +87,17 @@ h1 {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 3px;
-  margin-top: 15px;
+  padding: 5px;
   height: 34px;
-  width: 100%;
-}
-
-.alt-send-button {
-  width: 400px;
+  width: calc(100% - 20px);
+  margin: 0 10px;
   height: 34px;
 }
 
-.alt-send-button:hover {
+.send-button:hover {
+  background-color: #596392;
   cursor: pointer;
+  
 }
 
 .spinner {
@@ -115,19 +106,20 @@ h1 {
 
 /* Begin Right Contact Page */
 .direct-contact-container {
-  max-width: 500px;
+  width: 50%;
   margin: auto 0;
+  max-width: 400px;
 }
 
 /* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
-  margin-left: -10px;
-  padding-right: 20px;
+  padding: 0;
 }
 
 .list-item {
   line-height: 3;
+  margin: 0 auto;
 }
 
 .contact-text {
@@ -136,7 +128,7 @@ h1 {
 }
 
 .place {
-  margin-left: 62px;
+  margin-left: 30px;
 }
 
 .contact-text a {
@@ -171,13 +163,20 @@ h1 {
     flex-direction: column;
   }
   .direct-contact-container,
-  .form-horizontal {
+  .form-horizontal,
+  .contact-list {
     margin: 0 auto;
   }
-
+  .contact-form {
+    width: 100%;
+  }
+  .form-horizontal,
   .direct-contact-container {
-    margin-top: 60px;
-    max-width: 300px;
+    width: 100%;
+  }
+  .contact-list {
+    padding-left: 40px;
+    margin-top: 40px;
   }
 }
 
@@ -198,36 +197,26 @@ h1 {
   }
 
   .direct-contact-container {
-    margin-top: 60px;
+    margin-top: 10px;
     max-width: 280px;
   }
   .send-button {
-    width: 100%;
-  }
-  .alt-send-button {
-    width: 100%;
+    width: calc(100% - 20px);
+    margin: 0 10px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .section-header {
-    font-size: 50px;
-    padding: 20px 0 0px 0;
-  }
-  .contact-wrapper {
-    padding-top: 0;
-  }
-  .send-button,
-  .form-input,
-  textarea {
-    width: 300px;
+  .contact-form {
+    min-width: 300px;
   }
 
-  .send-button {
-    width: 100%;
+  .form-input,
+  textarea {
+    min-width: 300px;
   }
-  .alt-send-button {
-    width: 100%;
+  .send-button {
+    width: calc(100% - 20px);
   }
   .contact-list {
     margin-left: -50px;

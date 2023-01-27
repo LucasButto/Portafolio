@@ -51,10 +51,7 @@
 .skills .list {
   list-style: none;
   width: 60%;
-}
-
-.list {
-  margin: -35px 0;
+  margin-top: -5px;
 }
 
 .list span {
