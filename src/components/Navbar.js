@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const refreshPage = () => {
     setTimeout(() => {
-      if (window.screen.width <= 425) {
+      if (window.screen.width <= 768) {
         window.location.reload();
       }
     }, 100);
