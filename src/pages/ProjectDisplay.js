@@ -1,25 +1,35 @@
-import React from "react";
+import React, {useState} from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import "../styles/ProjectDisplay.css";
+import { useEffect } from "react";
 
 const ProjectDisplay = () => {
   const { id } = useParams();
   const project = ProjectList[id];
   const navigate = useNavigate();
+  const [showButton, setShowButton] = useState(true);
   const goBack = () => {
     navigate("/projects");
     window.scrollTo(0, 0);
   };
+
+  useEffect (() => {
+    const showButtonHandler = () => {
+      window.screen.width > 425 ? setShowButton(true) : setShowButton(false);
+    };
+    showButtonHandler();
+  }, []);
+
   return (
     <div className="project">
       <div className="title-container"
       data-aos="fade-up"
       data-aos-delay="0">
-        <button className="goBack-button" onClick={goBack}><KeyboardBackspaceIcon/></button>
+        {showButton && <button className="goBack-button" onClick={goBack}><KeyboardBackspaceIcon/></button>}
         <h1> {project.name}</h1>
       </div>
 
