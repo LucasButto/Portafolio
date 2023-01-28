@@ -1,0 +1,31 @@
+.scroll-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: none;
+    color: #3e497a;
+    cursor: pointer;
+    animation: bounce 1s infinite;
+  }
+  
+  .scroll-button svg {
+    font-size: 100px;
+  }
+  
+  .arrow2 {
+    margin-top: -80px;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

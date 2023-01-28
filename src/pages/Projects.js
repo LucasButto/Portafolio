@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
+import ScrollButton from "../components/ScrollButton";
 
 import "../styles/Projects.css";
 
@@ -15,6 +16,7 @@ const Projects = () => {
           );
         })}
       </div>
+      <ScrollButton/>
     </div>
   );
 };

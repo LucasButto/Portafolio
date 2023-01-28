@@ -1,6 +1,7 @@
 import AOS from "aos";
 import React from "react";
 import "../styles/Home.css";
+import ScrollButton from "../components/ScrollButton";
 
 const Home = () => {
   AOS.init();
@@ -51,6 +52,7 @@ const Home = () => {
           </div>
         </ol>
       </div>
+      <ScrollButton/>
     </div>
   );
 };
