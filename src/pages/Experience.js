@@ -8,6 +8,8 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import TimelineElement from "../components/TimelineElement";
+import ScrollButton from "../components/ScrollButton";
+import "../styles/Experience.css";
 
 const Experience = () => {
   return (
@@ -101,6 +103,7 @@ const Experience = () => {
           />
         </VerticalTimelineElement>
       </VerticalTimeline>
+      <ScrollButton/>
     </div>
   );
 };
