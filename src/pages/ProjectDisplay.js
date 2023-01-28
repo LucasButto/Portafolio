@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 import "../styles/ProjectDisplay.css";
 import { useEffect } from "react";
 
@@ -29,7 +29,7 @@ const ProjectDisplay = () => {
       <div className="title-container"
       data-aos="fade-up"
       data-aos-delay="0">
-        {showButton && <button className="goBack-button" onClick={goBack}><KeyboardBackspaceIcon/></button>}
+        {showButton && <button className="goBack-button" onClick={goBack}><ArrowBackRoundedIcon/></button>}
         <h1> {project.name}</h1>
       </div>
 
