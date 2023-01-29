@@ -57,7 +57,7 @@ export const ProjectList = [
     link: "https://lucasbutto.github.io/tic-tac-toe/",
   },
   {
-    name: "In Progress",
+    name: "More In Progress",
     image: Proj8,
   }
 ];
