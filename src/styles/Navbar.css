@@ -2,6 +2,7 @@
   width: 100%;
   height: 100px;
   background: #21325e;
+  z-index: 10;
 }
 
 .links {
@@ -18,6 +19,13 @@
   text-decoration: none;
   margin: 15px;
   font-size: 25px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #e9d35b;
+  border-bottom: #e9d35b 1px solid;
+  margin-top: 5px;
 }
 
 .toggleButton {

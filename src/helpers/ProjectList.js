@@ -4,6 +4,8 @@ import Proj3 from "../assets/proj3.jpg";
 import Proj4 from "../assets/proj4.jpg";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.jpg";
+import Proj7 from "../assets/proj7.jpg";
+import Proj8 from "../assets/proj8.jpg";
 
 export const ProjectList = [
   {
@@ -47,4 +49,15 @@ export const ProjectList = [
     github: "https://github.com/LucasButto/Calculator",
     link: "https://lucasbutto.github.io/Calculator/",
   },
+  {
+    name: "Tic Tac Toe",
+    image: Proj7,
+    skills: "React.js, HTML, CSS, JavaScript",
+    github: "https://github.com/LucasButto/tic-tac-toe",
+    link: "https://lucasbutto.github.io/tic-tac-toe/",
+  },
+  {
+    name: "More In Progress",
+    image: Proj8,
+  }
 ];

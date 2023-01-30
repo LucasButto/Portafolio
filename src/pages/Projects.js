@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
+import ScrollButton from "../components/ScrollButton";
 
 import "../styles/Projects.css";
 
@@ -11,10 +12,11 @@ const Projects = () => {
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem id={idx} name={project.name} image={project.image} />
+            <ProjectItem id={idx} name={project.name} image={project.image}/>
           );
         })}
       </div>
+      <ScrollButton/>
     </div>
   );
 };

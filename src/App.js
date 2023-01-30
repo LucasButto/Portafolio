@@ -7,8 +7,10 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import AOS from 'aos';
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <Router>

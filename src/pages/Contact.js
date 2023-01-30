@@ -69,7 +69,7 @@ const Contact = () => {
   return (
     <div>
       <section id="contact">
-        <h1 className="section-header">Contact</h1>
+        <h1>Contact</h1>
 
         <div className="contact-wrapper">
           <div className="contact-form">
@@ -82,6 +82,9 @@ const Contact = () => {
                   name="user_name"
                   value={inputName}
                   onChange={(e) => setInputName(e.target.value)}
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+
                 />
                 {errors.name && <p className="error">{errors.name}</p>}
 
@@ -92,23 +95,28 @@ const Contact = () => {
                   name="user_email"
                   value={inputEmail}
                   onChange={(e) => setInputEmail(e.target.value)}
+                  data-aos="fade-up"
+                  data-aos-delay="300"
                 />
                 {errors.email && <p className="error">{errors.email}</p>}
 
                 <textarea
-                  className="form-text"
+                  className="form-textarea"
                   placeholder="MESSAGE"
                   name="message"
                   value={inputMessage}
                   onChange={(e) => setInputMessage(e.target.value)}
+                  data-aos="fade-up"
+                  data-aos-delay="600"
                 ></textarea>
                 {errors.message && <p className="error">{errors.message}</p>}
               </div>
 
-              <button className="send-button">
-                <div className="alt-send-button">
-                  <SendIcon />
-                </div>
+              <button className="send-button" 
+              data-aos="fade-up"
+              data-aos-delay="900"
+              >
+                <SendIcon />
               </button>
             </form>
             {loading && (
@@ -118,7 +126,10 @@ const Contact = () => {
             )}
           </div>
 
-          <div className="direct-contact-container">
+          <div className="direct-contact-container"
+          data-aos="fade-right"
+          data-aos-delay="1200"
+          >
             <ul className="contact-list">
               <li className="list-item">
                 <LocationOnIcon />
@@ -132,7 +143,7 @@ const Contact = () => {
                 <span className="contact-text place whatsapp">
                   <a
                     href="https://wa.me/+5493462365854"
-                    title="Give me a call"
+                    title="Send me a message"
                     target="_blank"
                     rel="noreferrer"
                   >
