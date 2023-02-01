@@ -84,7 +84,6 @@ const Contact = () => {
                   onChange={(e) => setInputName(e.target.value)}
                   data-aos="fade-up"
                   data-aos-delay="0"
-
                 />
                 {errors.name && <p className="error">{errors.name}</p>}
 
@@ -112,9 +111,10 @@ const Contact = () => {
                 {errors.message && <p className="error">{errors.message}</p>}
               </div>
 
-              <button className="send-button" 
-              data-aos="fade-up"
-              data-aos-delay="900"
+              <button
+                className="send-button"
+                data-aos="fade-up"
+                data-aos-delay="900"
               >
                 <SendIcon />
               </button>
@@ -126,9 +126,10 @@ const Contact = () => {
             )}
           </div>
 
-          <div className="direct-contact-container"
-          data-aos="fade-right"
-          data-aos-delay="1200"
+          <div
+            className="direct-contact-container"
+            data-aos="fade-right"
+            data-aos-delay="1200"
           >
             <ul className="contact-list">
               <li className="list-item">

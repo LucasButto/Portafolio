@@ -1,3 +1,4 @@
+import ProjX from "../assets/projX.jpg";
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.jpg";
@@ -57,7 +58,14 @@ export const ProjectList = [
     link: "https://lucasbutto.github.io/tic-tac-toe/",
   },
   {
-    name: "More In Progress",
+    name: "Pomodoro Timer",
     image: Proj8,
-  }
+    skills: "React.js, HTML, CSS, JavaScript",
+    github: "https://github.com/LucasButto/Pomodoro",
+    link: "https://lucasbutto.github.io/Pomodoro/",
+  },
+  {
+    name: "More In Progress",
+    image: ProjX,
+  },
 ];

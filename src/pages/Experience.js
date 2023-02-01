@@ -103,7 +103,7 @@ const Experience = () => {
           />
         </VerticalTimelineElement>
       </VerticalTimeline>
-      <ScrollButton/>
+      <ScrollButton />
     </div>
   );
 };

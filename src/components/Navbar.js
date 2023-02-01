@@ -32,10 +32,19 @@ const Navbar = () => {
         </button>
       </div>
       <div className="links">
-        <Link to="/" onClick={refreshPage}> Home </Link>
-        <Link to="/projects" onClick={refreshPage}> Projects </Link>
+        <Link to="/" onClick={refreshPage}>
+          {" "}
+          Home{" "}
+        </Link>
+        <Link to="/projects" onClick={refreshPage}>
+          {" "}
+          Projects{" "}
+        </Link>
         <Link to="/experience"> Experience </Link>
-        <Link to="/contact" onClick={refreshPage}> Contact </Link>
+        <Link to="/contact" onClick={refreshPage}>
+          {" "}
+          Contact{" "}
+        </Link>
       </div>
     </div>
   );

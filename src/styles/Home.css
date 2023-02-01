@@ -97,7 +97,7 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .about{
+  .about {
     height: calc(100vh + 100px);
     margin-top: -200px;
   }

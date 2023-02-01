@@ -11,7 +11,12 @@ const Home = () => {
         <div data-aos="zoom-in" data-aos-duration="1000">
           <h2> Hi, My Name is Lucas Butto</h2>
         </div>
-        <div className="prompt" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+        <div
+          className="prompt"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <p>A software developer with a passion for learning and creating.</p>
         </div>
       </div>
@@ -52,7 +57,7 @@ const Home = () => {
           </div>
         </ol>
       </div>
-      <ScrollButton/>
+      <ScrollButton />
     </div>
   );
 };

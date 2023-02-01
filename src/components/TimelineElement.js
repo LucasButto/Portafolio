@@ -5,8 +5,6 @@ const TimelineElement = ({ title, subTitle, description }) => {
     <div>
       <h3 className="vertical-timeline-element-title">{title}</h3>
 
-      <h4 className="vertical-timeline-element-subtitle">{subTitle}</h4>
-
       <p>{description}</p>
     </div>
   );

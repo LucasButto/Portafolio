@@ -12,11 +12,11 @@ const Projects = () => {
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem id={idx} name={project.name} image={project.image}/>
+            <ProjectItem id={idx} name={project.name} image={project.image} />
           );
         })}
       </div>
-      <ScrollButton/>
+      <ScrollButton />
     </div>
   );
 };
