@@ -50,13 +50,13 @@ export const ProjectList = [
     github: "https://github.com/LucasButto/Calculator",
     link: "https://lucasbutto.github.io/Calculator/",
   },
-  // {
-  //   name: "Tic Tac Toe",
-  //   image: Proj7,
-  //   skills: "React.js, HTML, CSS, JavaScript",
-  //   github: "https://github.com/LucasButto/tic-tac-toe",
-  //   link: "https://lucasbutto.github.io/tic-tac-toe/",
-  // },
+  {
+    name: "Tic Tac Toe",
+    image: Proj7,
+    skills: "React.js, HTML, CSS, JavaScript",
+    github: "https://github.com/LucasButto/tic-tac-toe",
+    link: "https://lucasbutto.github.io/tic-tac-toe/",
+  },
   {
     name: "Pomodoro Timer",
     image: Proj8,
