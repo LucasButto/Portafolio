@@ -21,13 +21,13 @@ If you want to get in touch with me, you can do so through the contact form loca
 ## How to use the project
 
 1. Clone the repository on your local machine.
-> git clone https://github.com/your-username/your-repository.git
+   > git clone https://github.com/your-username/your-repository.git
 2. Open the terminal and navigate to the project directory.
-> cd your-repository
+   > cd your-repository
 3. Run the following command to install dependencies:
-> npm install
+   > npm install
 4. Run the following command to start the development server:
-> npm start
+   > npm start
 5. Open your browser and navigate to http://localhost:3000.
 
 That's it! Now you can explore my personal portfolio and learn more about my skills, projects, and experience. If you have any questions or suggestions, feel free to contact me through the contact form.
