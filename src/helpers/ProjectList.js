@@ -7,6 +7,7 @@ import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.jpg";
 import Proj7 from "../assets/proj7.jpg";
 import Proj8 from "../assets/proj8.jpg";
+import Proj9 from "../assets/proj9.jpg";
 
 export const ProjectList = [
   {
@@ -63,6 +64,13 @@ export const ProjectList = [
     skills: "React.js, HTML, CSS, JavaScript",
     github: "https://github.com/LucasButto/Pomodoro",
     link: "https://lucasbutto.github.io/Pomodoro/",
+  },
+  {
+    name: "PokeQuiz",
+    image: Proj9,
+    skills: "React.js, HTML, CSS, JavaScript",
+    github: "https://github.com/LucasButto/PokeQuiz",
+    link: "https://lucasbutto.github.io/PokeQuiz/",
   },
   {
     name: "More In Progress",
